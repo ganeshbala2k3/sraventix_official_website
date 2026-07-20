@@ -17,7 +17,7 @@ import {
   X,
   type LucideIcon,
 } from "lucide-react";
-import Button from "./ui/Button";
+import Button from "@/components/ui/Button";
 
 type Course = {
   title: string;
@@ -123,7 +123,7 @@ export default function Programs() {
   const active = CATEGORIES.find((c) => c.id === activeId) ?? CATEGORIES[0];
 
   return (
-    <section id="programs" className="bg-white py-24">
+    <section className="bg-white py-24">
       <div className="mx-auto max-w-[1320px] px-8">
         <div className="max-w-2xl">
           <span className="text-sm font-semibold tracking-wide text-blue uppercase">
@@ -227,7 +227,7 @@ export default function Programs() {
             <div className="mt-6 flex gap-3">
               <Button
                 as="a"
-                href="#contact"
+                href="/contact"
                 variant="primary"
                 className="flex-1 justify-center"
                 onClick={() => setSelectedCourse(null)}

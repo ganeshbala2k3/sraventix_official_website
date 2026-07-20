@@ -1,40 +1,44 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 import Logo from "./Logo";
-import Button from "./ui/Button";
+import Button from "@/components/ui/Button";
 
 const LINKS = [
-  { href: "#top", label: "Home" },
-  { href: "#about", label: "About" },
-  { href: "#framework", label: "Framework" },
-  { href: "#programs", label: "Programs" },
-  { href: "#who-we-serve", label: "Who We Serve" },
-  { href: "#contact", label: "Contact" },
+  { href: "/", label: "Home" },
+  { href: "/about", label: "About" },
+  { href: "/programs", label: "Programs" },
+  { href: "/who-we-serve", label: "Who We Serve" },
+  { href: "/contact", label: "Contact" },
 ];
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
 
   return (
     <header className="sticky top-0 z-50 h-20 border-b border-border bg-white">
       <nav className="mx-auto flex h-full max-w-[1320px] items-center justify-between px-8">
-        <a href="#top" onClick={() => setOpen(false)} className="shrink-0">
+        <Link href="/" onClick={() => setOpen(false)} className="shrink-0">
           <Logo className="h-9 sm:h-10" />
-        </a>
+        </Link>
 
         <div className="hidden items-center gap-8 md:flex">
           {LINKS.map((link) => (
-            <a
+            <Link
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-text-body transition-colors duration-200 hover:text-blue"
+              className={`text-sm font-medium transition-colors duration-200 hover:text-blue ${
+                pathname === link.href ? "text-blue" : "text-text-body"
+              }`}
             >
               {link.label}
-            </a>
+            </Link>
           ))}
-          <Button as="a" href="#contact" variant="primary" className="h-11 px-6">
+          <Button as="a" href="/contact" variant="primary" className="h-11 px-6">
             Get in Touch
           </Button>
         </div>
@@ -58,18 +62,20 @@ export default function Navbar() {
         <div className="border-t border-border bg-white px-8 py-6 md:hidden">
           <div className="flex flex-col gap-5">
             {LINKS.map((link) => (
-              <a
+              <Link
                 key={link.href}
                 href={link.href}
                 onClick={() => setOpen(false)}
-                className="text-sm font-medium text-text-body"
+                className={`text-sm font-medium ${
+                  pathname === link.href ? "text-blue" : "text-text-body"
+                }`}
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
             <Button
               as="a"
-              href="#contact"
+              href="/contact"
               variant="primary"
               onClick={() => setOpen(false)}
               className="justify-center"

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Button from "./ui/Button";
+import Button from "@/components/ui/Button";
 import HeroCarousel from "./HeroCarousel";
 import type { CarouselSlide } from "./HeroCarousel";
 
@@ -43,7 +43,7 @@ const SLIDES: CarouselSlide[] = [
 
 export default function Hero() {
   return (
-    <section id="top" className="relative overflow-hidden bg-white">
+    <section className="relative overflow-hidden bg-white">
       <div
         aria-hidden
         className="pointer-events-none absolute -top-24 -right-24 h-[420px] w-[420px] rounded-full bg-blue/10 blur-3xl"
@@ -72,10 +72,10 @@ export default function Hero() {
             </p>
 
             <div className="mt-10 flex flex-wrap items-center justify-center gap-4 lg:justify-start">
-              <Button as="a" href="#framework" variant="primary">
+              <Button as="a" href="/programs" variant="primary">
                 Explore Programs
               </Button>
-              <Button as="a" href="#contact" variant="secondary">
+              <Button as="a" href="/contact" variant="secondary">
                 Partner With Us
               </Button>
             </div>

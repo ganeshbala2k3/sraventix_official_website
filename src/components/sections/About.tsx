@@ -25,7 +25,7 @@ const PILLARS = [
 
 export default function About() {
   return (
-    <section id="about" className="bg-surface py-24">
+    <section className="bg-surface py-24">
       <div className="mx-auto max-w-[1320px] px-8">
         <div className="max-w-2xl">
           <span className="text-sm font-semibold tracking-wide text-blue uppercase">

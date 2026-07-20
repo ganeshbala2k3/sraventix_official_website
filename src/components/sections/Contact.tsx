@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Mail, MapPin, Building2 } from "lucide-react";
-import Button from "./ui/Button";
+import Button from "@/components/ui/Button";
 
 const INPUT_CLASSES =
   "h-13 w-full rounded-input border border-divider bg-white px-4 text-base text-text-heading placeholder-text-muted outline-none transition-colors duration-200 focus:border-2 focus:border-blue";
@@ -11,7 +11,7 @@ export default function Contact() {
   const [sent, setSent] = useState(false);
 
   return (
-    <section id="contact" className="bg-white py-24">
+    <section className="bg-white py-24">
       <div className="mx-auto max-w-[1320px] px-8">
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-20">
           <div>

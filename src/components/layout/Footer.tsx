@@ -1,10 +1,11 @@
+import Link from "next/link";
 import Logo from "./Logo";
 
 const LINKS = [
-  { href: "#about", label: "About" },
-  { href: "#framework", label: "Framework" },
-  { href: "#who-we-serve", label: "Who We Serve" },
-  { href: "#contact", label: "Contact" },
+  { href: "/about", label: "About" },
+  { href: "/programs", label: "Programs" },
+  { href: "/who-we-serve", label: "Who We Serve" },
+  { href: "/contact", label: "Contact" },
 ];
 
 export default function Footer() {
@@ -30,12 +31,12 @@ export default function Footer() {
             <ul className="mt-4 space-y-3">
               {LINKS.map((link) => (
                 <li key={link.href}>
-                  <a
+                  <Link
                     href={link.href}
                     className="text-sm text-text-secondary transition-colors duration-200 hover:text-blue"
                   >
                     {link.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>

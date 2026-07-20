@@ -20,7 +20,7 @@ const AUDIENCES = [
 
 export default function WhoWeServe() {
   return (
-    <section id="who-we-serve" className="bg-surface-alt py-24">
+    <section className="bg-surface-alt py-24">
       <div className="mx-auto max-w-[1320px] px-8">
         <div className="max-w-2xl">
           <span className="text-sm font-semibold tracking-wide text-blue uppercase">
