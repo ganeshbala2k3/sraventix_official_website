@@ -49,6 +49,44 @@
   }
 }
 
+/* Scroll-reveal: hidden state only applies when scripting is available,
+   so crawlers and no-JS browsers always see the content. */
+@media (scripting: enabled) {
+  .reveal {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+}
+
+.reveal {
+  transition:
+    opacity 0.6s ease-out,
+    transform 0.6s ease-out;
+  transition-delay: var(--reveal-delay, 0ms);
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Hero entrance: pure CSS, completes to a visible state without JS. */
+@keyframes hero-rise {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-enter {
+  animation: hero-rise 0.7s ease-out both;
+  animation-delay: var(--hero-delay, 0ms);
+}
+
 body {
   background: var(--background);
   color: var(--foreground);

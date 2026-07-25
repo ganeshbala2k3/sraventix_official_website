@@ -1,4 +1,5 @@
 import { Compass, Rocket, Target, Lightbulb } from "lucide-react";
+import Reveal from "@/components/ui/Reveal";
 
 const PILLARS = [
   {
@@ -27,38 +28,41 @@ export default function About() {
   return (
     <section className="bg-surface py-24">
       <div className="mx-auto max-w-[1320px] px-8">
+        <Reveal>
         <div className="max-w-2xl">
           <span className="text-sm font-semibold tracking-wide text-blue uppercase">
             Who We Are
           </span>
-          <h2 className="mt-3 text-[clamp(1.75rem,3vw+1rem,3rem)] leading-[1.15] font-bold text-text-heading">
+          <h1 className="mt-3 text-[clamp(1.75rem,3vw+1rem,3rem)] leading-[1.15] font-bold text-text-heading">
             An EdTech company built on outcomes, not just content.
-          </h2>
+          </h1>
           <p className="mt-4 text-lg leading-[1.7] text-text-body">
             Sraventix Technologies LLP exists at the intersection of
             education, technology, and industry — where what people learn
             translates directly into what they can do.
           </p>
         </div>
+        </Reveal>
 
         <div className="mt-14 grid gap-6 sm:grid-cols-2">
-          {PILLARS.map((pillar) => {
+          {PILLARS.map((pillar, i) => {
             const Icon = pillar.icon;
             return (
+              <Reveal key={pillar.label} delay={i * 80}>
               <div
-                key={pillar.label}
-                className="rounded-card border border-border bg-white p-8 shadow-sm transition-transform duration-[250ms] hover:-translate-y-1"
+                className="h-full rounded-card border border-border bg-white p-8 shadow-sm transition-transform duration-[250ms] hover:-translate-y-1"
               >
                 <span className="flex h-12 w-12 items-center justify-center rounded-[10px] bg-blue/10 text-blue">
                   <Icon className="h-6 w-6" strokeWidth={2} />
                 </span>
-                <h3 className="mt-5 text-2xl font-bold text-text-heading">
+                <h2 className="mt-5 text-2xl font-bold text-text-heading">
                   {pillar.label}
-                </h3>
+                </h2>
                 <p className="mt-3 text-base leading-[1.7] text-text-body">
                   {pillar.body}
                 </p>
               </div>
+              </Reveal>
             );
           })}
         </div>

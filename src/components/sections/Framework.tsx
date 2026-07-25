@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { BookOpen, Users, Hammer, TrendingUp } from "lucide-react";
+import Reveal from "@/components/ui/Reveal";
 
 const STEPS = [
   {
@@ -32,6 +33,7 @@ export default function Framework() {
   return (
     <section className="bg-white py-24">
       <div className="mx-auto max-w-[1320px] px-8">
+        <Reveal>
         <div className="max-w-2xl">
           <span className="text-sm font-semibold tracking-wide text-blue uppercase">
             Framework-Based Learning
@@ -46,14 +48,15 @@ export default function Framework() {
             impact.
           </p>
         </div>
+        </Reveal>
 
         <div className="mt-14 grid gap-6 md:grid-cols-4">
-          {STEPS.map((step) => {
+          {STEPS.map((step, i) => {
             const Icon = step.icon;
             return (
+              <Reveal key={step.letter} delay={i * 80}>
               <div
-                key={step.letter}
-                className="rounded-card border border-border bg-white p-8 shadow-sm transition-transform duration-[250ms] hover:-translate-y-1"
+                className="h-full rounded-card border border-border bg-white p-8 shadow-sm transition-transform duration-[250ms] hover:-translate-y-1"
               >
                 <div className="flex items-center justify-between">
                   <span className="text-4xl font-bold text-blue">
@@ -68,10 +71,12 @@ export default function Framework() {
                   {step.body}
                 </p>
               </div>
+              </Reveal>
             );
           })}
         </div>
 
+        <Reveal>
         <div className="mt-16">
           <p className="text-sm font-semibold tracking-wide text-text-secondary uppercase">
             Proof, not promises
@@ -102,6 +107,7 @@ export default function Framework() {
             </div>
           </div>
         </div>
+        </Reveal>
       </div>
     </section>
   );

@@ -78,6 +78,7 @@ export default function HeroCarousel({ slides }: { slides: CarouselSlide[] }) {
             alt={slide.alt}
             fill
             priority={i === 0}
+            loading={i === 0 ? undefined : "eager"}
             sizes="(min-width: 1320px) 1320px, 100vw"
             className="object-cover"
           />

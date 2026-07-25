@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Reveal from "@/components/ui/Reveal";
 
 type Partner = {
   name: string;
@@ -80,6 +81,7 @@ export default function PartnerLogos() {
       className="border-t border-border bg-surface-alt py-16"
     >
       <div className="mx-auto max-w-[1320px] px-6 sm:px-8">
+        <Reveal>
         <div className="mx-auto max-w-xl text-center">
           <span className="text-sm font-semibold tracking-wide text-blue uppercase">
             Collaborations
@@ -88,6 +90,7 @@ export default function PartnerLogos() {
             Trusted by the partners we build alongside
           </h2>
         </div>
+        </Reveal>
 
         <div className="mt-12 space-y-5">
           <MarqueeRow partners={ROW_1} />
