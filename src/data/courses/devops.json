@@ -4,7 +4,7 @@
   "icon": "Workflow",
   "track": "technical",
   "tagline": "Automate builds, deployments, and infrastructure with modern CI/CD and DevOps practices.",
-  "launched": true,
+  "launched": false,
   "description": "Learn how modern engineering teams ship software faster and more reliably. This program takes you from Linux and Git fundamentals through containerization, CI/CD pipelines, and infrastructure as code — the same core skills used by DevOps and platform teams in production.",
   "duration": "8 weeks",
   "nextBatch": "18 Aug 2026",
