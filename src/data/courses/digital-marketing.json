@@ -1,0 +1,85 @@
+{
+  "slug": "digital-marketing",
+  "title": "Digital Marketing",
+  "icon": "Megaphone",
+  "track": "management",
+  "tagline": "Master online marketing, SEO, and social media growth.",
+  "launched": false,
+  "description": "Learn how brands actually get found, chosen, and remembered online — SEO, paid advertising, content, and social media, tied together with the analytics to prove what's working. Built around running real campaigns, not memorizing marketing terms.",
+  "duration": "6 weeks",
+  "nextBatch": "18 Aug 2026",
+  "seatsLeft": 18,
+  "certificate": true,
+  "tools": [
+    "Google Analytics",
+    "Google Ads",
+    "Meta Ads Manager",
+    "SEO tools",
+    "Canva"
+  ],
+  "outcomes": [
+    "Plan and run SEO and paid ad campaigns",
+    "Build and grow a brand's social media presence",
+    "Analyze campaign performance with analytics tools",
+    "Write content and copy that converts"
+  ],
+  "syllabus": [
+    {
+      "module": "Marketing Foundations",
+      "topics": [
+        "Digital marketing landscape",
+        "Understanding your audience & funnel",
+        "Brand positioning basics"
+      ]
+    },
+    {
+      "module": "SEO & Content",
+      "topics": [
+        "On-page & technical SEO",
+        "Keyword research",
+        "Content marketing strategy"
+      ]
+    },
+    {
+      "module": "Paid Advertising",
+      "topics": [
+        "Google Ads fundamentals",
+        "Meta & Instagram ads",
+        "Budgeting & targeting"
+      ]
+    },
+    {
+      "module": "Social Media & Analytics",
+      "topics": [
+        "Social media strategy & growth",
+        "Google Analytics & reporting",
+        "A/B testing basics"
+      ]
+    },
+    {
+      "module": "Capstone Project",
+      "topics": [
+        "Plan and launch a mock ad campaign",
+        "Present a full marketing plan with metrics"
+      ]
+    }
+  ],
+  "projects": [
+    "Run a mock paid ad campaign with a budget and targeting plan",
+    "Build an SEO content plan for a real or sample business"
+  ],
+  "faqs": [
+    {
+      "q": "Do I need a marketing background to start?",
+      "a": "No — the program builds from the fundamentals up to running real campaigns."
+    },
+    {
+      "q": "Will I get hands-on ad platform practice?",
+      "a": "Yes — you'll set up campaigns directly in Google Ads and Meta Ads Manager, not just review screenshots."
+    },
+    {
+      "q": "What's the difference between Live and Self-Paced?",
+      "a": "Live batches include instructor-led sessions, real-time doubt clearing, and mentorship. Self-Paced gives you the recorded content on your own schedule. Both include the same projects and certificate."
+    }
+  ]
+}

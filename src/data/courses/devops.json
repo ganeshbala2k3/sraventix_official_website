@@ -1,0 +1,89 @@
+{
+  "slug": "devops",
+  "title": "DevOps",
+  "icon": "Workflow",
+  "track": "technical",
+  "tagline": "Automate builds, deployments, and infrastructure with modern CI/CD and DevOps practices.",
+  "launched": true,
+  "description": "Learn how modern engineering teams ship software faster and more reliably. This program takes you from Linux and Git fundamentals through containerization, CI/CD pipelines, and infrastructure as code — the same core skills used by DevOps and platform teams in production.",
+  "duration": "8 weeks",
+  "nextBatch": "18 Aug 2026",
+  "seatsLeft": 12,
+  "certificate": true,
+  "tools": [
+    "Linux",
+    "Git",
+    "Docker",
+    "Kubernetes",
+    "Jenkins",
+    "Terraform",
+    "AWS",
+    "Ansible"
+  ],
+  "outcomes": [
+    "Automate build, test, and deployment pipelines with CI/CD tools",
+    "Containerize and orchestrate applications with Docker and Kubernetes",
+    "Provision and manage cloud infrastructure as code",
+    "Monitor, troubleshoot, and respond to issues in production systems"
+  ],
+  "syllabus": [
+    {
+      "module": "Foundations",
+      "topics": [
+        "Linux fundamentals & shell scripting",
+        "Git & version control workflows",
+        "Networking basics for DevOps"
+      ]
+    },
+    {
+      "module": "Continuous Integration & Delivery",
+      "topics": [
+        "Building CI/CD pipelines with Jenkins",
+        "Automated testing in the pipeline",
+        "Artifact management"
+      ]
+    },
+    {
+      "module": "Containers & Orchestration",
+      "topics": [
+        "Docker fundamentals & writing Dockerfiles",
+        "Kubernetes clusters, pods & services",
+        "Scaling containerized apps"
+      ]
+    },
+    {
+      "module": "Infrastructure as Code",
+      "topics": [
+        "Provisioning with Terraform",
+        "Configuration management with Ansible",
+        "Cloud fundamentals on AWS"
+      ]
+    },
+    {
+      "module": "Monitoring & Capstone",
+      "topics": [
+        "Logging & monitoring basics",
+        "Incident response fundamentals",
+        "Capstone: ship a full CI/CD pipeline for a live app"
+      ]
+    }
+  ],
+  "projects": [
+    "Build a CI/CD pipeline that auto-deploys a full-stack app on every push",
+    "Containerize and deploy a microservice to a Kubernetes cluster"
+  ],
+  "faqs": [
+    {
+      "q": "Do I need prior Linux experience?",
+      "a": "No — we start from the fundamentals in week one. Basic programming familiarity helps but isn't required."
+    },
+    {
+      "q": "Will I get hands-on cloud practice?",
+      "a": "Yes — all infrastructure modules use real AWS environments, not simulations."
+    },
+    {
+      "q": "What's the difference between Live and Self-Paced?",
+      "a": "Live batches include instructor-led sessions, real-time doubt clearing, and mentorship. Self-Paced gives you the recorded content on your own schedule. Both include the same projects and certificate."
+    }
+  ]
+}

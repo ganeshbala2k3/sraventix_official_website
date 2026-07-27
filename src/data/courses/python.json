@@ -1,0 +1,86 @@
+{
+  "slug": "python",
+  "title": "Python",
+  "icon": "Terminal",
+  "track": "technical",
+  "tagline": "Master Python for automation, data processing, and backend development.",
+  "launched": false,
+  "description": "Python is the fastest way into automation, data work, and backend development. This program builds real fluency — from core syntax through data structures, automation scripting, and data processing — so you can write Python that actually does useful work, not just pass syntax quizzes.",
+  "duration": "8 weeks",
+  "nextBatch": "18 Aug 2026",
+  "seatsLeft": 15,
+  "certificate": true,
+  "tools": [
+    "Python",
+    "Pandas",
+    "NumPy",
+    "Flask",
+    "Git",
+    "SQL"
+  ],
+  "outcomes": [
+    "Write clean, efficient Python for automation and data tasks",
+    "Process and analyze data with Pandas and NumPy",
+    "Build simple backend services with Flask",
+    "Work confidently with APIs, files, and databases"
+  ],
+  "syllabus": [
+    {
+      "module": "Python Fundamentals",
+      "topics": [
+        "Syntax, data types & control flow",
+        "Functions & modules",
+        "File handling"
+      ]
+    },
+    {
+      "module": "Data Structures & OOP",
+      "topics": [
+        "Lists, dicts, sets & comprehensions",
+        "Object-oriented programming",
+        "Error handling"
+      ]
+    },
+    {
+      "module": "Automation & Scripting",
+      "topics": [
+        "Working with APIs",
+        "Automating repetitive tasks",
+        "Working with databases via SQL"
+      ]
+    },
+    {
+      "module": "Data Processing",
+      "topics": [
+        "Data analysis with Pandas",
+        "NumPy for numerical computing",
+        "Basic data visualization"
+      ]
+    },
+    {
+      "module": "Capstone Project",
+      "topics": [
+        "Build an automation script or data pipeline",
+        "Build and deploy a small Flask API"
+      ]
+    }
+  ],
+  "projects": [
+    "Build a data-processing pipeline that cleans and analyzes a real dataset",
+    "Build and deploy a small Flask API"
+  ],
+  "faqs": [
+    {
+      "q": "Is this a good first programming course?",
+      "a": "Yes — we start from zero and build up. Python is one of the most beginner-friendly languages to learn deeply."
+    },
+    {
+      "q": "Will this help with data analyst or backend roles?",
+      "a": "Both — the program splits between automation/backend (Flask, APIs) and data processing (Pandas, NumPy), so you can lean toward either path afterward."
+    },
+    {
+      "q": "What's the difference between Live and Self-Paced?",
+      "a": "Live batches include instructor-led sessions, real-time doubt clearing, and mentorship. Self-Paced gives you the recorded content on your own schedule. Both include the same projects and certificate."
+    }
+  ]
+}

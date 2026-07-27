@@ -5,7 +5,7 @@ import Mascot from "@/components/ui/Mascot";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Get in touch with Sraventix Technologies LLP — for learners ready to LEAP, or organizations looking for a workforce transformation partner.",
+    "Get in touch with Sraventix Technologies — for learners ready to LEAP, or organizations looking for a workforce transformation partner.",
   alternates: { canonical: "/contact" },
 };
 

@@ -1,0 +1,86 @@
+{
+  "slug": "cloud-computing",
+  "title": "Cloud Computing",
+  "icon": "Cloud",
+  "track": "technical",
+  "tagline": "Design, deploy, and manage scalable applications on AWS, Azure, and GCP.",
+  "launched": false,
+  "description": "Cloud platforms now run most of the world's software. This program builds real, hands-on fluency across AWS, Azure, and GCP — compute, storage, networking, security, and cost management — so you can design and run production-grade cloud infrastructure, not just pass a quiz about it.",
+  "duration": "8 weeks",
+  "nextBatch": "18 Aug 2026",
+  "seatsLeft": 12,
+  "certificate": true,
+  "tools": [
+    "AWS",
+    "Azure",
+    "GCP",
+    "Docker",
+    "Terraform",
+    "Linux"
+  ],
+  "outcomes": [
+    "Design and deploy scalable applications across AWS, Azure, and GCP",
+    "Manage cloud compute, storage, and networking services",
+    "Apply cloud security and cost-optimization best practices",
+    "Automate infrastructure provisioning instead of clicking through consoles"
+  ],
+  "syllabus": [
+    {
+      "module": "Cloud Fundamentals",
+      "topics": [
+        "Cloud service models (IaaS/PaaS/SaaS)",
+        "Compute & storage basics",
+        "Cloud networking essentials"
+      ]
+    },
+    {
+      "module": "AWS Core Services",
+      "topics": [
+        "EC2, S3 & VPC",
+        "IAM & security groups",
+        "Load balancing & auto-scaling"
+      ]
+    },
+    {
+      "module": "Multi-Cloud: Azure & GCP",
+      "topics": [
+        "Azure core services",
+        "GCP core services",
+        "Choosing the right cloud for a workload"
+      ]
+    },
+    {
+      "module": "Security & Cost Optimization",
+      "topics": [
+        "Identity & access management",
+        "Monitoring & cost-management tools",
+        "Compliance basics"
+      ]
+    },
+    {
+      "module": "Capstone Project",
+      "topics": [
+        "Deploy a scalable, load-balanced application",
+        "Present architecture & cost trade-offs"
+      ]
+    }
+  ],
+  "projects": [
+    "Deploy a scalable web application with auto-scaling and load balancing",
+    "Design a multi-tier cloud architecture with a cost estimate"
+  ],
+  "faqs": [
+    {
+      "q": "Do I need to know all three cloud providers already?",
+      "a": "No — you'll go deep on AWS first, then see how the same concepts map onto Azure and GCP."
+    },
+    {
+      "q": "Will I get my own cloud environment to practice in?",
+      "a": "Yes — every module includes hands-on labs in real cloud accounts, not simulations."
+    },
+    {
+      "q": "What's the difference between Live and Self-Paced?",
+      "a": "Live batches include instructor-led sessions, real-time doubt clearing, and mentorship. Self-Paced gives you the recorded content on your own schedule. Both include the same projects and certificate."
+    }
+  ]
+}

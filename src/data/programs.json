@@ -8,23 +8,31 @@
       "courses": [
         {
           "title": "DevOps",
+          "slug": "devops",
           "icon": "Workflow",
-          "body": "Automate builds, deployments, and infrastructure with modern CI/CD and DevOps practices."
+          "body": "Automate builds, deployments, and infrastructure with modern CI/CD and DevOps practices.",
+          "launched": true
         },
         {
           "title": "Cloud Computing",
+          "slug": "cloud-computing",
           "icon": "Cloud",
-          "body": "Design, deploy, and manage scalable applications on AWS, Azure, and GCP."
+          "body": "Design, deploy, and manage scalable applications on AWS, Azure, and GCP.",
+          "launched": true
         },
         {
           "title": "MERN Stack",
+          "slug": "mern-stack",
           "icon": "Layers",
-          "body": "Build full-stack web applications with MongoDB, Express, React, and Node.js."
+          "body": "Build full-stack web applications with MongoDB, Express, React, and Node.js.",
+          "launched": true
         },
         {
           "title": "Python",
+          "slug": "python",
           "icon": "Terminal",
-          "body": "Master Python for automation, data processing, and backend development."
+          "body": "Master Python for automation, data processing, and backend development.",
+          "launched": true
         }
       ]
     },
@@ -34,23 +42,31 @@
       "courses": [
         {
           "title": "HR",
+          "slug": "hr",
           "icon": "Users",
-          "body": "Master HR strategies, recruitment, and employee management."
+          "body": "Master HR strategies, recruitment, and employee management.",
+          "launched": true
         },
         {
           "title": "Digital Marketing",
+          "slug": "digital-marketing",
           "icon": "Megaphone",
-          "body": "Master online marketing, SEO, and social media growth."
+          "body": "Master online marketing, SEO, and social media growth.",
+          "launched": true
         },
         {
           "title": "Taxation",
+          "slug": "taxation",
           "icon": "Landmark",
-          "body": "Learn income tax laws, planning, and return filing."
+          "body": "Learn income tax laws, planning, and return filing.",
+          "launched": true
         },
         {
           "title": "Accounting",
+          "slug": "accounting",
           "icon": "Calculator",
-          "body": "Master financial accounting principles and practices."
+          "body": "Master financial accounting principles and practices.",
+          "launched": true
         }
       ]
     }

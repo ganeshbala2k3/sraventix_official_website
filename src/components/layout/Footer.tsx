@@ -97,14 +97,14 @@ export default function Footer() {
                 </a>
               </li>
               <li>{CONTACT.location}</li>
-              <li>Sraventix Technologies LLP</li>
+              <li>Sraventix Technologies</li>
             </ul>
           </div>
         </div>
 
         <div className="mt-12 border-t border-border pt-8">
           <p className="text-sm text-text-muted">
-            &copy; {year} Sraventix Technologies LLP. All rights reserved.
+            &copy; {year} Sraventix Technologies. All rights reserved.
           </p>
         </div>
       </div>

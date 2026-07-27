@@ -5,7 +5,7 @@ import Framework from "@/components/sections/Framework";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Sraventix Technologies LLP is an EdTech company built on outcomes, not just content — and the L.E.A.P. framework behind every program we run.",
+    "Sraventix Technologies is an EdTech company built on outcomes, not just content — and the L.E.A.P. framework behind every program we run.",
   alternates: { canonical: "/about" },
 };
 

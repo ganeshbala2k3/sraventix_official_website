@@ -1,0 +1,84 @@
+{
+  "slug": "taxation",
+  "title": "Taxation",
+  "icon": "Landmark",
+  "track": "management",
+  "tagline": "Learn income tax laws, planning, and return filing.",
+  "launched": false,
+  "description": "Taxation is one of the most in-demand practical skills in accounting and finance. This program builds hands-on filing skills — income tax returns, GST basics, and tax planning — so you can confidently handle real filings, not just the theory behind them.",
+  "duration": "6 weeks",
+  "nextBatch": "18 Aug 2026",
+  "seatsLeft": 18,
+  "certificate": true,
+  "tools": [
+    "Income Tax e-filing portal",
+    "GST portal basics",
+    "Excel",
+    "Tally basics"
+  ],
+  "outcomes": [
+    "File individual and business income tax returns confidently",
+    "Understand GST fundamentals and compliance",
+    "Apply tax-planning strategies within legal frameworks",
+    "Read and respond to tax notices and forms"
+  ],
+  "syllabus": [
+    {
+      "module": "Income Tax Fundamentals",
+      "topics": [
+        "Income tax slabs & heads of income",
+        "Deductions & exemptions",
+        "Tax planning basics"
+      ]
+    },
+    {
+      "module": "Return Filing",
+      "topics": [
+        "ITR forms & filing process",
+        "TDS fundamentals",
+        "Common filing mistakes"
+      ]
+    },
+    {
+      "module": "GST Essentials",
+      "topics": [
+        "GST structure & registration",
+        "GST returns & compliance",
+        "Input tax credit basics"
+      ]
+    },
+    {
+      "module": "Practical Taxation",
+      "topics": [
+        "Handling notices & assessments",
+        "Tax software/tools walkthrough",
+        "Case studies"
+      ]
+    },
+    {
+      "module": "Capstone Project",
+      "topics": [
+        "File a sample ITR end-to-end",
+        "Present a tax-planning case study"
+      ]
+    }
+  ],
+  "projects": [
+    "File a complete sample income tax return",
+    "Prepare a GST return for a sample business"
+  ],
+  "faqs": [
+    {
+      "q": "Do I need an accounting background?",
+      "a": "No — the program starts from tax fundamentals and builds up to full filings."
+    },
+    {
+      "q": "Is this useful if I want to file my own taxes, not work in the field?",
+      "a": "Yes — many learners take this specifically to confidently handle their own or their family's filings."
+    },
+    {
+      "q": "What's the difference between Live and Self-Paced?",
+      "a": "Live batches include instructor-led sessions, real-time doubt clearing, and mentorship. Self-Paced gives you the recorded content on your own schedule. Both include the same projects and certificate."
+    }
+  ]
+}

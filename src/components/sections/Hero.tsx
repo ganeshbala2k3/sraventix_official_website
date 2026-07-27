@@ -17,16 +17,14 @@ export default function Hero() {
       <div className="relative mx-auto max-w-7xl px-6 py-20 sm:px-8 lg:py-24">
         <div className="grid items-center gap-14 lg:grid-cols-2 lg:gap-12">
           <div className="text-center lg:text-left">
-            <span style={{ "--hero-delay": "0ms" } as CSSProperties} className="hero-enter inline-flex items-center gap-2 rounded-full border border-border bg-surface px-4 py-1.5 text-xs font-semibold tracking-wide text-text-secondary uppercase">
-              Sraventix Technologies LLP
-            </span>
+           
 
             <h1 style={{ "--hero-delay": "90ms" } as CSSProperties} className="hero-enter mt-6 text-[clamp(2.25rem,4vw+1rem,4rem)] leading-[1.1] font-bold text-text-heading">
               Transforming potential into professional excellence.
             </h1>
 
             <p style={{ "--hero-delay": "180ms" } as CSSProperties} className="hero-enter mx-auto mt-6 max-w-xl text-lg leading-[1.7] text-text-body lg:mx-0">
-              Sraventix Technologies LLP is a technology &amp; workforce
+              Sraventix Technologies is a technology &amp; workforce
               development company — bridging education, technology, and
               industry through lifelong, outcome-driven, framework-based
               learning for students, professionals, and organizations.

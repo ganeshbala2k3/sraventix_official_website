@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, type ReactNode } from "react";
+import Link from "next/link";
 import {
   Workflow,
   Cloud,
@@ -11,6 +12,7 @@ import {
   Landmark,
   Calculator,
   Download,
+  Sparkles,
   X,
   type LucideIcon,
 } from "lucide-react";
@@ -21,8 +23,10 @@ import programsData from "@/data/programs.json";
 
 type Course = {
   title: string;
+  slug: string;
   icon: LucideIcon;
   body: string;
+  launched: boolean;
 };
 
 type Track = {
@@ -121,56 +125,91 @@ export default function Programs({ mascot }: { mascot?: ReactNode }) {
                   <span className="flex h-12 w-12 items-center justify-center rounded-[10px] bg-blue/10 text-blue">
                     <Icon className="h-6 w-6" strokeWidth={2} />
                   </span>
-                  <span className="rounded-full border border-border px-3 py-1 text-xs font-semibold text-text-secondary">
-                    Live + Self-Paced
-                  </span>
+                  {course.launched ? (
+                    <span className="rounded-full border border-border px-3 py-1 text-xs font-semibold text-text-secondary">
+                      Live + Self-Paced
+                    </span>
+                  ) : (
+                    <span className="inline-flex items-center gap-1 rounded-full bg-amber-50 px-3 py-1 text-xs font-semibold text-amber-700">
+                      <Sparkles className="h-3 w-3" strokeWidth={2} />
+                      Coming Soon
+                    </span>
+                  )}
                 </div>
 
                 <h2 className="mt-5 text-xl font-bold text-text-heading">
-                  {course.title}
+                  <Link
+                    href={`/programs/${course.slug}`}
+                    className="transition-colors duration-200 hover:text-blue"
+                  >
+                    {course.title}
+                  </Link>
                 </h2>
                 <p className="mt-2 flex-1 text-base leading-relaxed text-text-body">
                   {course.body}
                 </p>
+                <Link
+                  href={`/programs/${course.slug}`}
+                  className="mt-2 text-sm font-semibold text-blue transition-colors duration-200 hover:text-blue-hover"
+                >
+                  {course.launched ? "View syllabus & details →" : "Coming soon →"}
+                </Link>
 
-                <div className="mt-6 grid grid-cols-2 gap-3 border-t border-border pt-6">
-                  <div>
-                    <p className="text-xs font-semibold tracking-wide text-text-muted uppercase">
-                      Live
-                    </p>
-                    <p className="mt-1 text-xl font-bold text-text-heading">
-                      {LIVE_PRICE}
-                    </p>
-                  </div>
-                  <div>
-                    <p className="text-xs font-semibold tracking-wide text-text-muted uppercase">
-                      Self-Paced
-                    </p>
-                    <p className="mt-1 text-xl font-bold text-text-heading">
-                      {SELF_PACED_PRICE}
-                    </p>
-                  </div>
-                </div>
+                {course.launched ? (
+                  <>
+                    <div className="mt-6 grid grid-cols-2 gap-3 border-t border-border pt-6">
+                      <div>
+                        <p className="text-xs font-semibold tracking-wide text-text-muted uppercase">
+                          Live
+                        </p>
+                        <p className="mt-1 text-xl font-bold text-text-heading">
+                          {LIVE_PRICE}
+                        </p>
+                      </div>
+                      <div>
+                        <p className="text-xs font-semibold tracking-wide text-text-muted uppercase">
+                          Self-Paced
+                        </p>
+                        <p className="mt-1 text-xl font-bold text-text-heading">
+                          {SELF_PACED_PRICE}
+                        </p>
+                      </div>
+                    </div>
 
-                <div className="mt-6 flex flex-col gap-2.5">
-                  <Button
-                    as="button"
-                    variant="primary"
-                    className="w-full"
-                    onClick={() => setModal({ course, action: "register" })}
-                  >
-                    Register Now
-                  </Button>
-                  <Button
-                    as="button"
-                    variant="secondary"
-                    className="w-full gap-2"
-                    onClick={() => setModal({ course, action: "brochure" })}
-                  >
-                    <Download className="h-4 w-4" strokeWidth={2} />
-                    Download Brochure
-                  </Button>
-                </div>
+                    <div className="mt-6 flex flex-col gap-2.5">
+                      <Button
+                        as="button"
+                        variant="primary"
+                        className="w-full"
+                        onClick={() => setModal({ course, action: "register" })}
+                      >
+                        Register Now
+                      </Button>
+                      <Button
+                        as="button"
+                        variant="secondary"
+                        className="w-full gap-2"
+                        onClick={() => setModal({ course, action: "brochure" })}
+                      >
+                        <Download className="h-4 w-4" strokeWidth={2} />
+                        Download Brochure
+                      </Button>
+                    </div>
+                  </>
+                ) : (
+                  <div className="mt-6 border-t border-border pt-6">
+                    <Button
+                      as="a"
+                      href={waLink(`Hi! Please notify me when the ${course.title} course launches.`)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      variant="secondary"
+                      className="w-full"
+                    >
+                      Notify Me on WhatsApp
+                    </Button>
+                  </div>
+                )}
               </div>
               </Reveal>
             );

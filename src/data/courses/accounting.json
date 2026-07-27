@@ -1,0 +1,83 @@
+{
+  "slug": "accounting",
+  "title": "Accounting",
+  "icon": "Calculator",
+  "track": "management",
+  "tagline": "Master financial accounting principles and practices.",
+  "launched": false,
+  "description": "Every business runs on its books. This program builds real bookkeeping and financial-statement skills — from double-entry fundamentals to preparing a full set of financial statements in Tally and Excel — the practical skills accounting and finance roles actually use day to day.",
+  "duration": "6 weeks",
+  "nextBatch": "18 Aug 2026",
+  "seatsLeft": 18,
+  "certificate": true,
+  "tools": [
+    "Tally",
+    "Excel",
+    "GST portal basics"
+  ],
+  "outcomes": [
+    "Record and reconcile day-to-day business transactions",
+    "Prepare financial statements: P&L, balance sheet, cash flow",
+    "Work confidently with Tally and Excel for accounting",
+    "Understand basic statutory compliance for a small business"
+  ],
+  "syllabus": [
+    {
+      "module": "Accounting Fundamentals",
+      "topics": [
+        "Accounting principles & double-entry",
+        "Journals & ledgers",
+        "Trial balance basics"
+      ]
+    },
+    {
+      "module": "Financial Statements",
+      "topics": [
+        "Preparing P&L statements",
+        "Balance sheet fundamentals",
+        "Cash flow basics"
+      ]
+    },
+    {
+      "module": "Tools & Software",
+      "topics": [
+        "Accounting in Tally",
+        "Using Excel for accounting",
+        "Bank reconciliation"
+      ]
+    },
+    {
+      "module": "Compliance Basics",
+      "topics": [
+        "GST for accounting",
+        "TDS in day-to-day accounting",
+        "Payroll accounting basics"
+      ]
+    },
+    {
+      "module": "Capstone Project",
+      "topics": [
+        "Maintain full books for a sample business for a month",
+        "Prepare final financial statements"
+      ]
+    }
+  ],
+  "projects": [
+    "Maintain a full set of books in Tally for a sample business",
+    "Prepare a complete set of financial statements"
+  ],
+  "faqs": [
+    {
+      "q": "Do I need a commerce background?",
+      "a": "No — the program starts from double-entry fundamentals, no prior accounting study required."
+    },
+    {
+      "q": "Will I actually use Tally, or just watch demos?",
+      "a": "You'll maintain a full month of books yourself in Tally as part of the capstone project."
+    },
+    {
+      "q": "What's the difference between Live and Self-Paced?",
+      "a": "Live batches include instructor-led sessions, real-time doubt clearing, and mentorship. Self-Paced gives you the recorded content on your own schedule. Both include the same projects and certificate."
+    }
+  ]
+}

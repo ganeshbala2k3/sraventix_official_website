@@ -1,0 +1,84 @@
+{
+  "slug": "hr",
+  "title": "HR",
+  "icon": "Users",
+  "track": "management",
+  "tagline": "Master HR strategies, recruitment, and employee management.",
+  "launched": false,
+  "description": "Move beyond HR theory into how people functions actually run — sourcing and hiring talent, managing performance, and handling the day-to-day operations and compliance that keep a workforce functioning. Built for anyone starting or strengthening an HR career.",
+  "duration": "6 weeks",
+  "nextBatch": "18 Aug 2026",
+  "seatsLeft": 18,
+  "certificate": true,
+  "tools": [
+    "HRIS basics",
+    "ATS platforms",
+    "Payroll fundamentals",
+    "Excel / Google Sheets"
+  ],
+  "outcomes": [
+    "Run end-to-end recruitment and selection processes",
+    "Apply core HR strategy, policy, and compliance fundamentals",
+    "Manage employee onboarding, engagement, and performance",
+    "Use HR metrics to support business decisions"
+  ],
+  "syllabus": [
+    {
+      "module": "HR Fundamentals",
+      "topics": [
+        "Role of HR in business strategy",
+        "HR policies & compliance basics",
+        "Employment law essentials"
+      ]
+    },
+    {
+      "module": "Talent Acquisition",
+      "topics": [
+        "Sourcing & screening candidates",
+        "Interviewing techniques",
+        "Onboarding design"
+      ]
+    },
+    {
+      "module": "Employee Management",
+      "topics": [
+        "Performance management systems",
+        "Compensation & benefits basics",
+        "Employee engagement strategies"
+      ]
+    },
+    {
+      "module": "HR Operations & Metrics",
+      "topics": [
+        "HR metrics & reporting",
+        "Using HRIS/ATS tools",
+        "Handling grievances & exits"
+      ]
+    },
+    {
+      "module": "Capstone Project",
+      "topics": [
+        "Design a full recruitment process for a role",
+        "Present an HR policy or engagement plan"
+      ]
+    }
+  ],
+  "projects": [
+    "Design and run a mock end-to-end recruitment drive",
+    "Build an employee engagement or onboarding plan"
+  ],
+  "faqs": [
+    {
+      "q": "Is this suitable for someone new to HR?",
+      "a": "Yes — the program starts from HR fundamentals and builds up to operational skills, no prior HR role required."
+    },
+    {
+      "q": "Does it cover Indian labor law specifics?",
+      "a": "Yes — employment law and compliance modules are grounded in Indian HR practice."
+    },
+    {
+      "q": "What's the difference between Live and Self-Paced?",
+      "a": "Live batches include instructor-led sessions, real-time doubt clearing, and mentorship. Self-Paced gives you the recorded content on your own schedule. Both include the same projects and certificate."
+    }
+  ]
+}

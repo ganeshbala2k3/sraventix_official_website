@@ -1,0 +1,86 @@
+{
+  "slug": "mern-stack",
+  "title": "MERN Stack",
+  "icon": "Layers",
+  "track": "technical",
+  "tagline": "Build full-stack web applications with MongoDB, Express, React, and Node.js.",
+  "launched": false,
+  "description": "Go from writing your first React component to shipping a complete, deployed web application. This program covers the full MERN stack end to end — frontend UI, backend APIs, databases, and deployment — through the same patterns used in real product teams.",
+  "duration": "10 weeks",
+  "nextBatch": "18 Aug 2026",
+  "seatsLeft": 15,
+  "certificate": true,
+  "tools": [
+    "MongoDB",
+    "Express.js",
+    "React",
+    "Node.js",
+    "Git",
+    "REST APIs"
+  ],
+  "outcomes": [
+    "Build and deploy full-stack web applications end to end",
+    "Design and secure REST APIs with Node.js and Express",
+    "Build dynamic, responsive UIs with React",
+    "Model, query, and manage data with MongoDB"
+  ],
+  "syllabus": [
+    {
+      "module": "Frontend Foundations",
+      "topics": [
+        "HTML, CSS & modern JavaScript",
+        "React components & hooks",
+        "State management"
+      ]
+    },
+    {
+      "module": "Backend with Node & Express",
+      "topics": [
+        "Building REST APIs",
+        "Authentication & authorization",
+        "Middleware & error handling"
+      ]
+    },
+    {
+      "module": "Database with MongoDB",
+      "topics": [
+        "Schema design",
+        "Queries & aggregation",
+        "Connecting Express to MongoDB"
+      ]
+    },
+    {
+      "module": "Full-Stack Integration",
+      "topics": [
+        "Connecting React to your API",
+        "Deployment basics",
+        "Testing & debugging"
+      ]
+    },
+    {
+      "module": "Capstone Project",
+      "topics": [
+        "Build and deploy a full-stack MERN application",
+        "Code review & portfolio prep"
+      ]
+    }
+  ],
+  "projects": [
+    "Build a full-stack e-commerce or booking app with authentication",
+    "Deploy a MERN application to a live cloud host"
+  ],
+  "faqs": [
+    {
+      "q": "Do I need prior coding experience?",
+      "a": "Basic familiarity with programming logic helps, but we cover JavaScript fundamentals from the start."
+    },
+    {
+      "q": "Will I have a project to show employers afterward?",
+      "a": "Yes — the capstone is a full deployed application you can add directly to your portfolio and GitHub."
+    },
+    {
+      "q": "What's the difference between Live and Self-Paced?",
+      "a": "Live batches include instructor-led sessions, real-time doubt clearing, and mentorship. Self-Paced gives you the recorded content on your own schedule. Both include the same projects and certificate."
+    }
+  ]
+}
