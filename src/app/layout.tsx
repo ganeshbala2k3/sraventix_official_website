@@ -42,6 +42,8 @@ export const metadata: Metadata = {
     "Accounting course",
     "skill development Ongole",
     "L.E.A.P. framework",
+    "Best Edutech company in andhra pradesh",
+    "Best Edutech company in ongole"
   ],
   applicationName: SITE_NAME,
   category: "education",

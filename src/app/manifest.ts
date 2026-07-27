@@ -14,7 +14,7 @@ export default function manifest(): MetadataRoute.Manifest {
     icons: [
       {
         src: "/brand/sraventix-mark.png",
-        sizes: "460x460",
+        sizes: "1254x1254",
         type: "image/png",
       },
     ],
