@@ -1,0 +1,16 @@
+{
+  "whoWeServe": [
+    {
+      "audience": "Students",
+      "description": "Build job-ready skills in emerging technologies through structured, mentor-led programs designed to bridge the gap between college and career."
+    },
+    {
+      "audience": "Professionals",
+      "description": "Upskill and reskill with practical, outcome-driven learning paths that keep pace with fast-moving technology and career demands."
+    },
+    {
+      "audience": "Organizations",
+      "description": "Partner with Sraventix for workforce transformation programs that turn training investment into measurable business outcomes."
+    }
+  ]
+}

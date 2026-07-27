@@ -1,0 +1,72 @@
+{
+  "pricing": {
+    "live": "₹8,999",
+    "selfPaced": "₹3,999",
+    "note": "This pricing applies uniformly across all technical and management programs."
+  },
+  "formats": {
+    "live": "Instructor-led batches with real-time doubt clearing and mentorship, on a fixed schedule.",
+    "selfPaced": "Recorded content you complete on your own schedule, with WhatsApp support."
+  },
+  "certificate": "A certificate of completion is issued for both Live and Self-Paced formats after finishing the program and its projects.",
+  "tracks": [
+    {
+      "name": "Technical Programs",
+      "courses": [
+        {
+          "title": "DevOps",
+          "duration": "8 weeks",
+          "description": "Automate builds, deployments, and infrastructure with modern CI/CD and DevOps practices.",
+          "tools": ["Linux", "Git", "Docker", "Kubernetes", "Jenkins", "Terraform", "AWS", "Ansible"]
+        },
+        {
+          "title": "Cloud Computing",
+          "duration": "8 weeks",
+          "description": "Design, deploy, and manage scalable applications on AWS, Azure, and GCP.",
+          "tools": ["AWS", "Azure", "GCP", "Docker", "Terraform", "Linux"]
+        },
+        {
+          "title": "MERN Stack",
+          "duration": "10 weeks",
+          "description": "Build full-stack web applications with MongoDB, Express, React, and Node.js.",
+          "tools": ["MongoDB", "Express.js", "React", "Node.js", "Git", "REST APIs"]
+        },
+        {
+          "title": "Python",
+          "duration": "8 weeks",
+          "description": "Master Python for automation, data processing, and backend development.",
+          "tools": ["Python", "Pandas", "NumPy", "Flask", "Git", "SQL"]
+        }
+      ]
+    },
+    {
+      "name": "Management Programs",
+      "courses": [
+        {
+          "title": "HR",
+          "duration": "6 weeks",
+          "description": "Master HR strategies, recruitment, and employee management.",
+          "tools": ["HRIS basics", "ATS platforms", "Payroll fundamentals", "Excel / Google Sheets"]
+        },
+        {
+          "title": "Digital Marketing",
+          "duration": "6 weeks",
+          "description": "Master online marketing, SEO, and social media growth.",
+          "tools": ["Google Analytics", "Google Ads", "Meta Ads Manager", "SEO tools", "Canva"]
+        },
+        {
+          "title": "Taxation",
+          "duration": "6 weeks",
+          "description": "Learn income tax laws, planning, and return filing.",
+          "tools": ["Income Tax e-filing portal", "GST portal basics", "Excel", "Tally basics"]
+        },
+        {
+          "title": "Accounting",
+          "duration": "6 weeks",
+          "description": "Master financial accounting principles and practices.",
+          "tools": ["Tally", "Excel", "GST portal basics"]
+        }
+      ]
+    }
+  ]
+}
