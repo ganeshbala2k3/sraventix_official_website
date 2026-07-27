@@ -219,7 +219,7 @@ export default function WhatsAppWidget() {
 
           {/* Options */}
           {node && (
-            <div className="flex flex-wrap gap-2 border-t border-border bg-white px-4 py-3">
+            <div className="flex max-h-44 flex-wrap gap-2 overflow-y-auto border-t border-border bg-white px-4 py-3">
               {node.options.map((option) =>
                 option.wa ? (
                   <a
