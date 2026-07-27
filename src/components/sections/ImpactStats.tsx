@@ -1,15 +1,18 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { Users, BookOpen, TrendingUp, Briefcase } from "lucide-react";
+import { Users, BookOpen, TrendingUp, Briefcase, type LucideIcon } from "lucide-react";
 import Reveal from "@/components/ui/Reveal";
+import statsData from "@/data/impact-stats.json";
 
-const STATS = [
-  { label: "Students", value: 10000, suffix: "+", icon: Users },
-  { label: "Courses", value: 35, suffix: "+", icon: BookOpen },
-  { label: "Success", value: 98, suffix: "%", icon: TrendingUp },
-  { label: "Placements", value: 100, suffix: "+", icon: Briefcase },
-];
+const ICONS: Record<string, LucideIcon> = {
+  Users,
+  BookOpen,
+  TrendingUp,
+  Briefcase,
+};
+
+const STATS = statsData.map((stat) => ({ ...stat, icon: ICONS[stat.icon] }));
 
 const COUNT_MS = 1400;
 

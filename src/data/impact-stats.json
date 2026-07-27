@@ -1,0 +1,6 @@
+[
+  { "label": "Students", "value": 10000, "suffix": "+", "icon": "Users" },
+  { "label": "Courses", "value": 10, "suffix": "+", "icon": "BookOpen" },
+  { "label": "Success", "value": 98, "suffix": "%", "icon": "TrendingUp" },
+  { "label": "Placements", "value": 5000, "suffix": "+", "icon": "Briefcase" }
+]

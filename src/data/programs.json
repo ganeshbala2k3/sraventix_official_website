@@ -1,0 +1,58 @@
+{
+  "livePrice": "₹8,999",
+  "selfPacedPrice": "₹3,999",
+  "tracks": [
+    {
+      "id": "technical",
+      "label": "Technical Programs",
+      "courses": [
+        {
+          "title": "DevOps",
+          "icon": "Workflow",
+          "body": "Automate builds, deployments, and infrastructure with modern CI/CD and DevOps practices."
+        },
+        {
+          "title": "Cloud Computing",
+          "icon": "Cloud",
+          "body": "Design, deploy, and manage scalable applications on AWS, Azure, and GCP."
+        },
+        {
+          "title": "MERN Stack",
+          "icon": "Layers",
+          "body": "Build full-stack web applications with MongoDB, Express, React, and Node.js."
+        },
+        {
+          "title": "Python",
+          "icon": "Terminal",
+          "body": "Master Python for automation, data processing, and backend development."
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "label": "Management Programs",
+      "courses": [
+        {
+          "title": "HR",
+          "icon": "Users",
+          "body": "Master HR strategies, recruitment, and employee management."
+        },
+        {
+          "title": "Digital Marketing",
+          "icon": "Megaphone",
+          "body": "Master online marketing, SEO, and social media growth."
+        },
+        {
+          "title": "Taxation",
+          "icon": "Landmark",
+          "body": "Learn income tax laws, planning, and return filing."
+        },
+        {
+          "title": "Accounting",
+          "icon": "Calculator",
+          "body": "Master financial accounting principles and practices."
+        }
+      ]
+    }
+  ]
+}

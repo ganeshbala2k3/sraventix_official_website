@@ -17,6 +17,7 @@ import {
 import Button from "@/components/ui/Button";
 import Reveal from "@/components/ui/Reveal";
 import { CONTACT, waLink } from "@/lib/site";
+import programsData from "@/data/programs.json";
 
 type Course = {
   title: string;
@@ -30,63 +31,27 @@ type Track = {
   courses: Course[];
 };
 
-const LIVE_PRICE = "₹4,999";
-const SELF_PACED_PRICE = "₹1,999";
+const ICONS: Record<string, LucideIcon> = {
+  Workflow,
+  Cloud,
+  Layers,
+  Terminal,
+  Users,
+  Megaphone,
+  Landmark,
+  Calculator,
+};
 
-const TRACKS: Track[] = [
-  {
-    id: "technical",
-    label: "Technical Programs",
-    courses: [
-      {
-        title: "DevOps",
-        icon: Workflow,
-        body: "Automate builds, deployments, and infrastructure with modern CI/CD and DevOps practices.",
-      },
-      {
-        title: "Cloud Computing",
-        icon: Cloud,
-        body: "Design, deploy, and manage scalable applications on AWS, Azure, and GCP.",
-      },
-      {
-        title: "MERN Stack",
-        icon: Layers,
-        body: "Build full-stack web applications with MongoDB, Express, React, and Node.js.",
-      },
-      {
-        title: "Python",
-        icon: Terminal,
-        body: "Master Python for automation, data processing, and backend development.",
-      },
-    ],
-  },
-  {
-    id: "management",
-    label: "Management Programs",
-    courses: [
-      {
-        title: "HR",
-        icon: Users,
-        body: "Master HR strategies, recruitment, and employee management.",
-      },
-      {
-        title: "Digital Marketing",
-        icon: Megaphone,
-        body: "Master online marketing, SEO, and social media growth.",
-      },
-      {
-        title: "Taxation",
-        icon: Landmark,
-        body: "Learn income tax laws, planning, and return filing.",
-      },
-      {
-        title: "Accounting",
-        icon: Calculator,
-        body: "Master financial accounting principles and practices.",
-      },
-    ],
-  },
-];
+const LIVE_PRICE = programsData.livePrice;
+const SELF_PACED_PRICE = programsData.selfPacedPrice;
+
+const TRACKS: Track[] = programsData.tracks.map((track) => ({
+  ...track,
+  courses: track.courses.map((course) => ({
+    ...course,
+    icon: ICONS[course.icon],
+  })),
+}));
 
 type ModalState = {
   course: Course;

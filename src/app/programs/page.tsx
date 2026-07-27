@@ -41,13 +41,13 @@ const coursesJsonLd = {
         {
           "@type": "Offer",
           category: "Live",
-          price: "4999",
+          price: "8999",
           priceCurrency: "INR",
         },
         {
           "@type": "Offer",
           category: "Self-Paced",
-          price: "1999",
+          price: "3999",
           priceCurrency: "INR",
         },
       ],
