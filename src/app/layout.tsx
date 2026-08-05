@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Plus_Jakarta_Sans } from "next/font/google";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
-import SraventixAIWidget from "@/components/chat/SraventixAIWidget";
+import WhatsAppWidget from "@/components/chat/WhatsAppWidget";
 import JsonLd from "@/components/seo/JsonLd";
 import GoogleAnalytics from "@/components/seo/GoogleAnalytics";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
@@ -99,7 +99,7 @@ export default function RootLayout({
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />
-        <SraventixAIWidget />
+        <WhatsAppWidget />
       </body>
     </html>
   );

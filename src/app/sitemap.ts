@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getCourseSlugs } from "@/lib/courses";
+import { getBlogSlugs } from "@/lib/blog";
 import { SITE_URL, ROUTES, LEGAL_ROUTES } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -17,6 +18,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
+  const blog: MetadataRoute.Sitemap = [
+    { url: `${SITE_URL}/blog`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.7 },
+    ...getBlogSlugs().map((slug) => ({
+      url: `${SITE_URL}/blog/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    })),
+  ];
+
   const legal: MetadataRoute.Sitemap = LEGAL_ROUTES.map((route) => ({
     url: `${SITE_URL}${route.path}`,
     lastModified: new Date(),
@@ -24,5 +35,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.3,
   }));
 
-  return [...main, ...courses, ...legal];
+  return [...main, ...courses, ...blog, ...legal];
 }

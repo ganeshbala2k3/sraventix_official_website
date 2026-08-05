@@ -3,83 +3,87 @@
   "title": "DevOps",
   "icon": "Workflow",
   "track": "technical",
-  "tagline": "Automate builds, deployments, and infrastructure with modern CI/CD and DevOps practices.",
-  "launched": false,
-  "description": "Learn how modern engineering teams ship software faster and more reliably. This program takes you from Linux and Git fundamentals through containerization, CI/CD pipelines, and infrastructure as code — the same core skills used by DevOps and platform teams in production.",
+  "tagline": "Beginner-friendly DevOps training and internship — from Linux and Git to CI/CD, Kubernetes, and AWS deployment.",
+  "launched": true,
+  "description": "A beginner-friendly DevOps Basics Training & Internship Program. Month 1 is structured training: three self-paced recorded classes and one live doubt-clarification session every week, plus a hands-on task tied to that week's topic. Month 2 is a project phase — applying everything you learned to take a real app from Git through Docker, a CI/CD pipeline, and deployment on AWS, with weekly live mentoring.",
   "duration": "8 weeks",
-  "nextBatch": "18 Aug 2026",
+  "nextBatch": "First Week of August 2026",
   "seatsLeft": 12,
   "certificate": true,
-  "tools": [
-    "Linux",
-    "Git",
-    "Docker",
-    "Kubernetes",
-    "Jenkins",
-    "Terraform",
-    "AWS",
-    "Ansible"
-  ],
+  "tools": ["Linux", "Git", "GitHub", "Docker", "Docker Compose", "Jenkins", "GitHub Actions", "Kubernetes", "AWS (EC2, S3, IAM)"],
   "outcomes": [
-    "Automate build, test, and deployment pipelines with CI/CD tools",
-    "Containerize and orchestrate applications with Docker and Kubernetes",
-    "Provision and manage cloud infrastructure as code",
-    "Monitor, troubleshoot, and respond to issues in production systems"
+    "Administer Linux systems and manage code with Git & GitHub",
+    "Containerize applications with Docker and Docker Compose",
+    "Build CI/CD pipelines with Jenkins and GitHub Actions",
+    "Deploy a containerized application to AWS EC2, with foundational Kubernetes knowledge",
+    "Take a project end-to-end: Git → Docker → CI/CD → AWS deployment"
   ],
   "syllabus": [
     {
-      "module": "Foundations",
+      "module": "Week 1: Linux Administration + Git & GitHub",
       "topics": [
-        "Linux fundamentals & shell scripting",
-        "Git & version control workflows",
-        "Networking basics for DevOps"
+        "Class 1: Linux basics — file system, users, permissions, basic commands",
+        "Class 2: Shell scripting basics + package management",
+        "Class 3: Git & GitHub — repos, commits, branches, pull requests",
+        "Live session: doubt clarification on Linux commands & Git workflow",
+        "Task: set up a GitHub repo and practice basic Linux and Git commands"
       ]
     },
     {
-      "module": "Continuous Integration & Delivery",
+      "module": "Week 2: Docker Containerization",
       "topics": [
-        "Building CI/CD pipelines with Jenkins",
-        "Automated testing in the pipeline",
-        "Artifact management"
+        "Class 1: Docker introduction — images vs containers, installing Docker",
+        "Class 2: Writing a Dockerfile, building images",
+        "Class 3: Docker Compose basics — running multi-container apps",
+        "Live session: doubt clarification on Docker",
+        "Task: containerize a simple sample application using Docker"
       ]
     },
     {
-      "module": "Containers & Orchestration",
+      "module": "Week 3: CI/CD Pipelines (Jenkins + GitHub Actions)",
       "topics": [
-        "Docker fundamentals & writing Dockerfiles",
-        "Kubernetes clusters, pods & services",
-        "Scaling containerized apps"
+        "Class 1: CI/CD concepts — build, test, deploy stages",
+        "Class 2: Jenkins basics — installing Jenkins, creating a simple pipeline",
+        "Class 3: GitHub Actions basics — writing a workflow YAML file",
+        "Live session: doubt clarification on pipeline setup",
+        "Task: create a basic CI/CD pipeline (Jenkins or GitHub Actions) for the Dockerized app"
       ]
     },
     {
-      "module": "Infrastructure as Code",
+      "module": "Week 4: Kubernetes (Intro) + AWS & Deployment",
       "topics": [
-        "Provisioning with Terraform",
-        "Configuration management with Ansible",
-        "Cloud fundamentals on AWS"
+        "Class 1: Kubernetes basics — pods, deployments, services (conceptual + light hands-on)",
+        "Class 2: AWS basics — EC2, S3, IAM overview",
+        "Class 3: Deploying the containerized app to an AWS EC2 instance",
+        "Live session: doubt clarification + wrap-up of Month 1 topics",
+        "Task: deploy the sample app to AWS and document the deployment steps"
       ]
     },
     {
-      "module": "Monitoring & Capstone",
+      "module": "Month 2: Project Phase",
       "topics": [
-        "Logging & monitoring basics",
-        "Incident response fundamentals",
-        "Capstone: ship a full CI/CD pipeline for a live app"
+        "Apply Weeks 1–4 together: take the app from Git → Docker → CI/CD pipeline → AWS deployment",
+        "Weekly live mentoring session for project progress and doubts",
+        "Final week: project demo plus basic documentation (README + steps followed)"
       ]
     }
   ],
   "projects": [
-    "Build a CI/CD pipeline that auto-deploys a full-stack app on every push",
-    "Containerize and deploy a microservice to a Kubernetes cluster"
+    "End-to-end capstone: take a sample app from Git through Docker, a CI/CD pipeline, and deployment on AWS EC2",
+    "Weekly hands-on tasks: GitHub repo setup, a Dockerized app, a CI/CD pipeline, and an AWS EC2 deployment"
   ],
   "faqs": [
     {
-      "q": "Do I need prior Linux experience?",
-      "a": "No — we start from the fundamentals in week one. Basic programming familiarity helps but isn't required."
+      "q": "Is this course beginner-friendly?",
+      "a": "Yes — this program is designed for complete beginners, starting from Linux and Git fundamentals with no prior DevOps experience required."
+    },
+    {
+      "q": "What's included in the program?",
+      "a": "12 self-paced recorded lecture classes, 4 live doubt-clarification sessions in Month 1, weekly live mentoring in Month 2, one end-to-end deployed project, and a certificate of completion."
     },
     {
       "q": "Will I get hands-on cloud practice?",
-      "a": "Yes — all infrastructure modules use real AWS environments, not simulations."
+      "a": "Yes — the Month 2 project phase has you deploy a real containerized app to AWS EC2, not a simulation."
     },
     {
       "q": "What's the difference between Live and Self-Paced?",
